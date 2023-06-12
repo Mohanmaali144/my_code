@@ -15,7 +15,6 @@ class DuplicateElement
 			System.out.println("Enter Eliment:  "+(i+1));
 			arr[i]= sc.nextInt();
 		}			
-		 
 			for(i=0;i<size; i++) 
 			{	
 				for(j=i+1; j<size; j++)
@@ -23,13 +22,9 @@ class DuplicateElement
 					{
 						count++;
 						arr[i]=-1;
-						arr[j]=-1;
-						
-					}	
-			
-			}
-			
-			System.out.println("sum = "+count);
-			
+						arr[j]=-1;		
+					}			
+			}			
+			System.out.println("sum = "+count);	
 	}
 }	

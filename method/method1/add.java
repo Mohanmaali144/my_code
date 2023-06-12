@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 class Test
 {
-	
 	public void add()
 	{
 		Scanner sc = new Scanner(System.in);
@@ -12,13 +11,11 @@ class Test
 		
 		System.out.println("Enter a Second number: ");
 		int  b = sc.nextInt();
-		System.out.println("Addition = "+ (a+b));
-		
+		System.out.println("Addition = "+ (a+b));	
 	}
 	public static void main(String[]args)
 	{
-		Test ob = new Test();
-		
+		Test ob = new Test();	
 		ob.add();
 
 	}

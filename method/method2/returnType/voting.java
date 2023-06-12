@@ -5,9 +5,13 @@ class Voting
 	public boolean canVote(int x)
 	{	
 		if(x>=18)
-		return true;
+		{
+			return true;
+		}
 		else
+		{	
 			return false;
+		}
 	}	
 	public static void main(String[]args)
 	{

@@ -2,8 +2,7 @@ import java.util.Scanner;
 class ReversArray
 {
 	public static void main(String[]args)
-	{
-			
+	{		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("how many Element want you enter in array: ");
 		int n = sc.nextInt();
@@ -11,10 +10,14 @@ class ReversArray
 		int i=0;
 		System.out.println("Enter eliment in array: ");	
 		for(i=0; i<n; i++)
+		{	
 			a[i]= sc.nextInt();
+		}
 		
 		for(i=0; i<n; i++)
-		System.out.println("a["+ i + "]" + a[i]);
+		{
+			System.out.println("a["+ i + "]" + a[i]);
+		}
 		
 		for(i=0; i<n/2; i++)
 		{
@@ -26,7 +29,9 @@ class ReversArray
 		System.out.println("_________________________________________________");
 		
 		for(i=0; i<n; i++)
-			System.out.println("a["+i+"]"+a[i]);				
+		{
+			System.out.println("a["+i+"]"+a[i]);
+		}			
 	}
 }	
 		

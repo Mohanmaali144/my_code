@@ -10,7 +10,6 @@ class Test
 		System.out.println("A = "+a);
 		k.show();
 	}	
-	
 	public void show()
 	{	
 		System.out.println("hello show....");			

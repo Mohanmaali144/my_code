@@ -1,9 +1,12 @@
-
+//no return type with argument
 import java.util.Scanner;
-
-class Test3
+class Test
 {
-	public void multi()
+	public void add(int a,int b)
+	{
+		System.out.println("Addition = "+ (a+b));	
+	}
+	public static void main(String[]args)
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a first number: ");
@@ -11,12 +14,7 @@ class Test3
 		
 		System.out.println("Enter a Second number: ");
 		int  b = sc.nextInt();
-		System.out.println("multiplication = "+ (a*b));	
-	}
-	public static void main(String[]args)
-	{
-		Test3 ob = new Test3();	
-		ob.multi();
-
+		Test ob = new Test();	
+		ob.add(a,b);
 	}
 }

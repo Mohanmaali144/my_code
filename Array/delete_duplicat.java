@@ -17,9 +17,13 @@ class DeleteDuplicat
 			for(int j=i+1; j<5; j++)
 		   { 
 				 if(a[i]!=a[j]&& a[i]!=-1)				
-						b[i]=a[i];				
+				 {
+					 b[i]=a[i];		
+				 }					 
 				 else
+				 {	
 					a[j]=-1;
+				 }
 		   }
 		}		
 		for(i=0; i<b.length; i++)

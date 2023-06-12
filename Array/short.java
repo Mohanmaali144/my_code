@@ -49,7 +49,7 @@ class Short2
 		int i,j;
 		for(i=0; i<size; i++)
 		{	 
-			System.out.println("Enter Eliment:  "+(i+1));
+			System.out.println("Enter Element:  "+(i+1));
 			arr[i]= sc.nextInt();
 		}	 
 			for(i=0;i<size; i++)
@@ -60,8 +60,7 @@ class Short2
 						int temp=arr[i];
 						arr[i] = arr[j];
 						arr[j] = temp;
-					}
-				
+					}		
 			}
 			System.out.print("__________________________________________\n\n Disending : ");
 			for(i=0;i<size;i++)

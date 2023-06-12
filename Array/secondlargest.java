@@ -28,8 +28,9 @@ class SecondLargest
 		for(i=1; i<10; i++)
 		{
 			if(a[i]>slarg && a[i]<max)
-			{ slarg = a[i];
-			  index =i;
+			{ 
+				slarg = a[i];
+				index =i;
 			}
 		}		
 		System.out.println("Second largest Element is: a["+index+"]= "+slarg);

@@ -19,14 +19,13 @@ class Frequanci2
 				if(a[i]==a[j])
 				{	
 					count++;
-					a[j]=-1;
-					
-				}
-				
-			}
-			
+					a[j]=-1;					
+				}				
+			}	
 			if(a[i]!=(-1))
+			{
 				System.out.println("Element "+a[i]+" = "+count+" Time");
+			}
 		}	
 	
 	}

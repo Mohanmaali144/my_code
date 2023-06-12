@@ -10,7 +10,9 @@ class CountElement
 	
 		System.out.println("Enter Element");
 		for(i=0; i<5;i++)
+		{	
 			a[i]=sc.nextInt();
+		}
 		
 		System.out.println("Enter counting Element");
 		temp=sc.nextInt();
