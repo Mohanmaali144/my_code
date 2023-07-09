@@ -1,5 +1,4 @@
 // revers Array
-
 import java.util.Scanner;
 class Revers
 {
@@ -15,15 +14,14 @@ class Revers
 		{	 
 			System.out.println("Enter Eliment:  "+(i+1));
 			arr[i]= sc.nextInt();
-		}			
-		 
-			for(i=size-1,j=0;i>=0; i--,j++)
-			{ 
-				brr[j]=arr[i];
-			}
-			for(i=0;i<size;i++)
-			{ 
-				System.out.println(brr[i]+" ");
-			}
+		}			 
+		for(i=size-1,j=0;i>=0; i--,j++)
+		{ 
+			brr[j]=arr[i];
+		}
+		for(i=0;i<size;i++)
+		{ 
+			System.out.println(brr[i]+" ");
+		}
 	}
 }	

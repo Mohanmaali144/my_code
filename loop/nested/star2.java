@@ -18,7 +18,6 @@ class Star2
 		System.out.println("Enter a range:");
 		int n = sc.nextInt();
 		int i,k,j;
-		
 			for(i=1; i<=n; i++)
 			{
 				for(j=i; j<n; j++)
@@ -28,8 +27,5 @@ class Star2
 				
 				System.out.println("");
 			}
-	
-
 	}
-
 }

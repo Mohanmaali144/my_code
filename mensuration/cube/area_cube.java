@@ -11,7 +11,6 @@ class Cube
 		System.out.print("Enter Edge: " );
 		int edge = sc.nextInt();
 
-
 		float area = 6*(edge*edge);
 
 		System.out.print("Area of Cube: "+area);

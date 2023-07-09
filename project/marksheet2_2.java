@@ -1,6 +1,6 @@
 /*Complete 21/05/2023*/
 
-/*using start to loop*/
+/*using loop */
 
 import java.util.Scanner;
 class Marksheet2_2

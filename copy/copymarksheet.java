@@ -86,9 +86,7 @@ if(p<33)
 					if(e<33)
 						System.out.println("  Fail in all subject");
 					else
-						System.out.println("  Fail in Four subject\n  Physic\n  Chemistry\n  Math\n  Hindi");
-					
-				
+						System.out.println("  Fail in Four subject\n  Physic\n  Chemistry\n  Math\n  Hindi");			
 				}
 				else //h
 				{

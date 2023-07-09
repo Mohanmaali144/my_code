@@ -1,6 +1,4 @@
 
-// 
-
 import java.util.Scanner;
 
 class Max
@@ -19,8 +17,6 @@ class Max
 		System.out.println("max num is: "+max);
 	}
 }
-
-
 class Min
 {
 	public static void main(String[]args)

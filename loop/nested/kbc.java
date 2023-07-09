@@ -6,9 +6,7 @@ class Kbc
 {
 	public static void main(String []arg)
 	{
-		Scanner sc = new Scanner (System.in);
-
-		
+		Scanner sc = new Scanner (System.in);	
 		System.out.println("\n1)Which of the following option leads to the portability and security of Java?");
 		
 		System.out.println("\n1 : Bytecode is executed by JVM");
@@ -16,9 +14,7 @@ class Kbc
 		System.out.println("3 : Use of exception handling");
 		System.out.println("4 : Dynamic binding between objects");
 		System.out.println("\nEnter any answer Number");
-		int ch= sc.nextInt();
-		
-		
+		int ch= sc.nextInt();	
 		
 		switch(ch)
 		{case 1:

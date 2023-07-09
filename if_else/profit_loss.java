@@ -13,7 +13,6 @@ class Test
 	
 	System.out.println("Enter a Saling prize:  ");
 	int sp = sc.nextInt();
-	
 	if(cp<0 || sp<0)
 	{
 		System.out.println("Invalid.. cost or saling prize.");

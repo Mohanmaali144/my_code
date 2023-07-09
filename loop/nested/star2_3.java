@@ -35,8 +35,5 @@ class Star2_3
 				}
 				System.out.println("");
 			}
-	
-
 	}
-
 }

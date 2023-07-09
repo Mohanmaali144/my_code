@@ -12,8 +12,10 @@ class Under250
 		
 		System.out.print("Element are: ");
 		for( i=0; i<5; i++)		
-				if(a[i]>=150 && a[i]<=250)
-					System.out.print(a[i]+" ");			
+		{
+			if(a[i]>=150 && a[i]<=250)
+					System.out.print(a[i]+" ");	
+		}			
 	}
 }	
 		

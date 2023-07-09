@@ -1,7 +1,6 @@
-/// complete..
-
+// complete..
 import java.util.Scanner;
-class Metric2
+class Metric3
 {
 	public static void main(String[]args)
 	{
@@ -15,26 +14,34 @@ class Metric2
 		int c = sc.nextInt();
 		int i,j;
 		System.out.println("Enter eliment: ");
-		for(i=0; i<c; i++)
-			for( j=0; j<r; j++)
+		for(i=0; i<r; i++)
+			for( j=0; j<c; j++)
 				a[i][j]=sc.nextInt();
 		
-		for(i=0; i<c; i++)
+		for(i=0; i<r; i++)
 		{  
-			for(j=0; j<r; j++)
+			for(j=0; j<c; j++)
 				System.out.print(a[i][j]+" ");
 			
 			System.out.println();	
 		}
-		
-		for(i=0;i<c; i++)
-			for(j=i+1;j<r; j++)
+		System.out.println("-----------------------------------------");
+		int n=0;
+		if(r>c)
+		{
+			n=r;
+		}		
+		else
+		{
+			n=c;
+		}		
+		for(i=0;i<r; i++)
+			for(j=i;j<n; j++)
 			{
 					int temp = a[i][j];
 					a[i][j]=a[j][i];
 					a[j][i]=temp;				
-			}	
-		
+			}			
 		for(i=0; i<c; i++)
 		{  
 			for(j=0; j<r; j++)

@@ -21,11 +21,13 @@ int i,j,k;
 	for(i=n; i>=1; i--)
 	{
 		for(j=i; j<n; j++)
+		{	
 			System.out.print("  ");
-		
+		}	
 		for(k=i; k>=1; k--)
+		{
 			System.out.print(k+" ");
-		
+		}			
 		System.out.println("");
 	}
 }

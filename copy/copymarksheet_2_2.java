@@ -1,4 +1,4 @@
-/*creat  a marksheetrevision of five subject  using ef else and all operater*/
+/*creat  a marksheetre vision of five subject  using ef else and all operater*/
 
 import java.util.Scanner;
 class Marksheet
