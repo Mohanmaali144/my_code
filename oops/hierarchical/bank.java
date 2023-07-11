@@ -2,50 +2,57 @@ import java.util.Scanner;
 
 class Bank
 {
-	String account_num,holder_name,ifsc,type;
-	import java.util.Scanner;
+	String accNum,holderName,ifsc,type;
 
-class Bank
-{
-	String account_num,holder_name,ifsc,type;
-
-    public String getAccount_num() {
-        return account_num;
+    public String getAccNum() {
+        return this.accNum;
     }
 
-    public void setAccount_num(String account_num) {
-        this.account_num = account_num;
+    public void setAccNum(String accNum) {
+        this.accNum = accNum;
     }
 
-    public String getHolder_name() {
-        return holder_name;
+    public String getHolderName() {
+        return this.holderName;
     }
 
-    public void setHolder_name(String holder_name) {
-        this.holder_name = holder_name;
+    public void setHolderName(String holderName) {
+        this.holderName = holderName;
     }
 
     public String getIfsc() {
-        return ifsc;
+        return this.ifsc;
     }
 
     public void setIfsc(String ifsc) {
         this.ifsc = ifsc;
     }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-	
+	public String getType(){
+		return this.type;
+	}
+	public void setType(String type){
+		
+		this.type = type;
+	}
 }
 
-}
-class Sbi extends Bank
+class SBI extends Bank
 {
+	String locker;
+	String cifNum;
+	public SBI()
+	{
+		this.locker = "";
+		this.cifNum = "";
+	}
 	
+	public SBI(String locker,String cifNum)
+	{
+		this.locker = locker;
+		this.cifNum = cifNum;
+	}
 }
-class Boi extends Bank
+class BOI extends Bank
+{
+	String 
+}
