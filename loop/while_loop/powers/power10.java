@@ -3,31 +3,30 @@
 import java.util.Scanner;
 class Power10
 {
-public static void main(String[]arg)
+	public static void main(String[]arg)
+	{
+		Scanner sc = new Scanner(System.in);
 
-{
-Scanner sc = new Scanner(System.in);
+		System.out.println("Enter any number:   ");
+		int x = sc.nextInt();
 
-System.out.println("Enter any number:   ");
-int x = sc.nextInt();
+		System.out.println("Enter range:   ");
+		int y = sc.nextInt();
+		int i=1,j=2; 
+		double power=1;
+		double sum=0;
 
-System.out.println("Enter power:   ");
-int y = sc.nextInt();
-int i=1,j=2; 
-double power=1;
-double sum=0;
-
- while(i<=y)
- {
-	 power = power * x;
-	 System.out.print(x+"^"+i+"/"+j);
-	 sum=sum+(power/j);
-	 if(i<y)
-		 System.out.print(" + ");
-	 i++;
-	 j++;
- }
- 
-	System.out.println(" = "+sum);
-  }
+		 while(i<=y)
+		 {
+			 power = power * x;
+			 System.out.print(x+"^"+i+"/"+j);
+			 sum=sum+(power/j);
+			 if(i<y)
+				 System.out.print(" + ");
+			 i++;
+			 j++;
+		 }
+		 
+			System.out.println(" = "+sum);
+	  }
    }
