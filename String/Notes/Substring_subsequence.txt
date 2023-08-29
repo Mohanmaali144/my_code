@@ -1,0 +1,23 @@
+Answers 
+
+
+subString ----A substring is a contiguous part of a string, i.e., a string inside another string.
+example: 
+String s1 ="Nitin";
+SubString Start with : N ------> N Ni  Nit  Niti ,Nitin
+		       i ------> i i   it   iti   itin 
+		       t ------> t ti  tin
+		       i ------> i in
+	               n ------> n
+---------------------------------------------------------------------------------------------------------------------------  
+Subsequence--------A subsequence is a sequence that can be derived from another sequence by removing zero or more elements,
+                   without changing the order of the remaining elements.
+
+Subsequance of a String :
+String ---- "Nitin"----INDEX--- | N | i | t | i | n |
+				
+			Subsequance  of length 1 : | N | i | t | i | n |
+			Subsequance  of length 2 : |Ni|Nt|Ni|Nn|it|ii|in|ti|tn|in|
+			Subsequance  of length 3 : |Nit|Nti|Nin|Nn|it|ii|in|ti|tn|in|
+			Subsequance  of length 4 : |Niti|itin|Nin|Nn|it|ii|in|ti|tn|in|
+---------------------------------------------------------------------------------------------------------------------------

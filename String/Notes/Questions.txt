@@ -1,0 +1,17 @@
+--- String -----
+
+Reading:
+
+1. how to create an immutable class ?
+2. Single value operand and multilavel operand.
+3. which method is called to compare the contant
+4. different between string buffer and string builder class 
+5. what is the meaning of AbstractStringBuilder ?
+6. How many methods of object class ?
+8. when was String builder and String buffer introduced ?
+9. what is the capacity of String buffer ?
+10. memory alocation of String.
+
+
+
+25/07/2023

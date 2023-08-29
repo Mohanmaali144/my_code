@@ -1,0 +1,84 @@
+# String
+
+**What is String in Java?**
+
+Answer: In Java, a String is an object of the String class that is represented in the java.lang package. A String contains values and characters.
+
+There are two methods in Java for creating a String:
+
+(i) String Literal Ex**- String s = "Nitin";
+(ii) new Keyword Ex**- String s = new String("Nitin");
+
+How to store object state in memory?
+
+**Answer:** *Serialization:* The process of storing an object state (all the information about the object) is called serialization.
+
+**De-Serialization** -**it is the process of converting a stream of bytes to the original state of the object. To perform deserialization, Java provides the ObjectInputStream class, which is opposite to the ObjectOutputStream we studied for serialization.
+
+What is the difference between a Literal object and a new keyword object?
+
+**Answer:** Let's see an example
+
+When we create two literal objects using "Nitin"
+
+String s1 = "Nitin";
+String s2 = "Nitin";
+
+Note: When we create an object using a literal object, it is stored in *String Constant Pool.*
+
+When we create the same string and have a reference that is different but content is the same in this case
+
+String ------
+literal ------
+
+new keyword
+
+i**mplements of logic**
+
+Convert a lowercase String to uppercase.
+
+Convert an uppercase String to lowercase.
+
+Count the number of vowels in a String.
+
+Count the number of consonants in a String.
+
+**Questions**
+
+Q1. subSequence(); and subString(); difference.
+
+**String class methods-**
+
+isEmpty(); //String is empty or not
+
+charAt(int);//
+
+getBytes();
+
+equals();
+
+getequalsIgnoreCase();
+
+compareTo();
+
+compareToIgnoreCase();
+
+String hashCode();
+
+```java
+int indexOf(ob);
+10.int indexOf(ob1.ob2);
+11.int lastIndex(ob);
+12.int lastIndexOf(ob1,ob2);
+13.String subString(int);
+14.String subString(int1,int2);
+15.String concat();
+16.boolean contains();
+17.split();
+18.toUpperCase(); //convert lowercase to uppercase
+19.toString(); //type cast any object into a string
+20.toLowerCase(); //convert uppercase into lowercase
+21.charSequence();
+```
+
+**Explanation:** In Java, a String is an object of the String class that is represented in the java.lang package. The String class provides various methods that can be used to manipulate strings. Some of these methods include isEmpty(), charAt(int), getBytes(), equals(), getequalsIgnoreCase(), compareTo(), compareToIgnoreCase(), String hashCode(), and more. These methods can be used to perform various operations on strings, such as checking whether a string is empty, getting the character at a specific index, converting a string to uppercase or lowercase, and so on.

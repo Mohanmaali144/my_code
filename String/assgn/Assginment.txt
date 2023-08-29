@@ -1,0 +1,40 @@
+String ------
+literal ------  
+new keyword
+
+
+implements of logic
+Assignment 
+
+1. Convert a String lowrcase to upercase;
+2. Convert a String upercase to lowrcase;
+3. How many vowels in String .
+4. How many constent in String .
+
+Questions 
+
+Q1. subSequane(); and subString(); diffrence.   
+
+String class Methods
+
+1. isEmpty(); //string is empty or not 
+2. charAt(int);//
+3. getBytes();
+4. equals();
+5. getequlasIngnoreCase();
+6. compareTo();
+7. compareToIgnoreCase();
+8. String hashCode();
+9. int indexOf(ob);
+10.int indexOf(ob1.ob2);
+11.int lastIndex(ob);
+12.int lastIndexOf(ob1,ob2);
+13.String subString(int);
+14.String subString(int1,int2);
+15.String concat();
+16.boolean conatints();
+17.split();
+18.toUpperCase();// convert lowercase to uppercase  
+19.toStrong();// type cast any object into string 
+20.toLowerCase(); covert uppercase into lowercase
+21.charSequance();

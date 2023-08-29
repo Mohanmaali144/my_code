@@ -456,7 +456,7 @@ class Marksheet{
    //input Details
 	public static int input(Pojo std[],OpMarksheet op,int j)
 	{              
-        // Pojo std[] = new Pojo[100];
+ 
         Scanner sc = new Scanner(System.in);
 		String name,course,fname,mname,branch,uv;
 		int age,roll,year,sem,physics,chemistry,math,hindi,english,total;
@@ -532,6 +532,8 @@ class Marksheet{
 	public void choice()
 	{
 		 Pojo std[] = new Pojo[100];
+		 
+		 //opretion performing....
 		OpMarksheet op = new OpMarksheet();
 		Scanner sc = new Scanner(System.in);
 		int ch,num;

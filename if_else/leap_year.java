@@ -10,7 +10,7 @@ class Test
 		System.out.println("Enter a year:  ");
 		int year =sc.nextInt(); 
 			
-		if(year>&&year<20000)
+		if(year>0&&year<20000)
 		{		
 			if(year%400==0 ||(year%4==0 && year%100!=0))
 			{

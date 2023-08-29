@@ -5,6 +5,8 @@ class Armstrong2
 {
 	public static void main(String[]arg)
 	{
+		
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter any number:   ");
 		int n = sc.nextInt();
